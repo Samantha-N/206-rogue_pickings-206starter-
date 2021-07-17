@@ -189,7 +189,6 @@ footer span {
 @media all and (min-width:768px) {
     /* Tablet styles here */
  .bottom-section {
-	 display: flex;
 	 border-top: 1px solid #eee;
 	 align-items: flex-start;
 	 justify-content: space-between;	 
@@ -198,29 +197,15 @@ footer span {
  .section-one,
  .section-two,
  .section-three {
-	
-}
-
-.section-one {
-	width: 33%;		
+	flex-basis: 30%;
 }
 
 .section-two {
 	border-left: 1px solid #eee;
 	border-right: 1px solid #eee;
-	text-align: left;
-	width: 33%;
-	padding: 0 3px 0 3px;
+	padding: 0 20px;
 }
 
-.section-two h3 {
-	text-align: left;	
-}
-
-.section-three {
-	text-align: left;
-	width: 33%;
-}
 
 
 @media all and (min-width:1200px) {
