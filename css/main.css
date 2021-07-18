@@ -210,5 +210,23 @@ footer span {
 
 @media all and (min-width:1200px) {
     /* Desktop styles here */
- 
+	header {
+		justify-content: space-between;
+	}
+
+	header h1 {
+		width: 30%;
+		padding-top: 40px;
+		text-align: left;
+		border-bottom: none;
+	  }
+
+	 header nav ul {
+		display: flex;
+		justify-content: space-between;
+		width: 40%;
+	  }
+
+	
+	
 }
