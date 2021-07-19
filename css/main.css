@@ -55,27 +55,25 @@ header {
 	width: 100%;                     
 }
 
-#box {
-	border-bottom: 3px solid #77a466;
-	width: 100%;
-}
 
 header h1 {
 	text-align: center;
 	margin: 0;
 	padding: 38px 0 10px;
-	
+	width: 100%;
 }
+
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
+	border-top: 3px solid #77a466;
 	line-height: 1em;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	text-align: center;
-	
+	width: 100%;
 }
 
 header nav ul {
@@ -211,12 +209,14 @@ footer span {
 @media all and (min-width:1200px) {
     /* Desktop styles here */
 	header {
+		display: flex;
 		justify-content: space-between;
 	}
 
 	header h1 {
+		display: flex;
 		width: 30%;
-		padding-top: 40px;
+		padding-top: 20px;
 		text-align: left;
 		border-bottom: none;
 	  }
@@ -225,6 +225,7 @@ footer span {
 		display: flex;
 		justify-content: space-between;
 		width: 40%;
+		border-top: none;
 	  }
 
 	
