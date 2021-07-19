@@ -224,8 +224,11 @@ footer span {
 	 header nav ul {
 		display: flex;
 		justify-content: space-between;
-		width: 40%;
 		border-top: none;
+	  }
+
+	  header nav {
+		  width: 40%;
 	  }
 
 	
